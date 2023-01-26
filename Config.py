@@ -13,7 +13,7 @@ if ENVIRONMENT:
         OWNER_ID = int(os.environ.get('OWNER_ID', 0))
     except ValueError:
         raise Exception("Your OWNER_ID is not a valid integer.")
-    DATABASE_URL = os.environ.get('DATABASE_URL', None)
+    DATABASE_URL = os.environ.get('DATABASE_URL')
     # https://stackoverflow.com/questions/62688256/sqlalchemy-exc-nosuchmoduleerror-cant-load-plugin-sqlalchemy-dialectspostgre
     MUST_JOIN = os.environ.get('MUST_JOIN', None)
     if MUST_JOIN.startswith("@"):
