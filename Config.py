@@ -21,9 +21,9 @@ if ENVIRONMENT:
         MUST_JOIN = MUST_JOIN.replace("@", "")
 else:
     # Fill the Values
-    API_ID = 0
-    API_HASH = ""
-    BOT_TOKEN = ""
-    DATABASE_URL = ""
-    MUST_JOIN = ""
-    OWNER_ID = 0
+    API_ID = 23842900
+    API_HASH = "d21e95895cf2a5b83b0167fdd3b6e541"
+    BOT_TOKEN = "5940392500:AAEyhx3nI0DPYspcyeDFMij5brvNN9J1OaQ"
+    DATABASE_URL = "postgres://nmjrboas:4UpeJ89pSZMw8dkK5T8XoFIZR50HxTw6@kashin.db.elephantsql.com/nmjrboas"
+    MUST_JOIN = "NixaWorld"
+    OWNER_ID = 5761513990
