@@ -13,8 +13,6 @@ I can also be used in groups !!
 
 To see `Supported Media Types` tap the related button below.
 Use the other buttons to know more about me and my usage.
-
-By @StarkBots
     """
 
     # Help Message
@@ -37,24 +35,24 @@ That is,
 
 __Note__ : If the bot doesn't respond in the expected way, make the bot admin so that bot gets updates for sure. Telegram is weird.
 
-More features in development. Keep track by joining @StarkBots.
+More features in development. Keep track by joining @NixaWorld.
     """
 
     # About Message
     ABOUT = """
 **About This Bot** 
 
-Bot created by @StarkBots
+Developer: @SankiWorldMF 
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/TelegraphBot)
+Source Code : [Click Here](https://t.me/TheApkZone)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+Updates : @NixaWorld
 
-Support : @StarkBotsChat
+Support : @SankiWorldMF 
     """
 
     SUPPORTED_MEDIA_TYPES = """
@@ -72,7 +70,7 @@ Note : Telegraph has a size limit of 5 MB.
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("✨ Bot Support ✨", url="https://t.me/SankiWorldMF")],
         [InlineKeyboardButton("🎇 Supported Media Types 🎇", callback_data="supported_media_types")],
         [InlineKeyboardButton("Close 🔐", callback_data="close")],
         [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
@@ -81,7 +79,7 @@ Note : Telegraph has a size limit of 5 MB.
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")
+            InlineKeyboardButton("✨ Bot Support ✨", url="https://t.me/SankiWorldMF")
         ],
         [InlineKeyboardButton("🎇 Supported Media Types 🎇", callback_data="supported_media_types")],
         [
@@ -93,7 +91,7 @@ Note : Telegraph has a size limit of 5 MB.
 
     # Supported Media Buttons
     supported_media_buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("✨ Bot Support ✨", url="https://t.me/SankiWorldMF")],
         [InlineKeyboardButton("Close 🔐", callback_data="close")],
         [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]
     ]
